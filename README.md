@@ -4,7 +4,7 @@ A simple **Machine Learning project** that predicts the species of an Iris flowe
 The project includes:
 - A **trained ML model** (`iris_best_model.joblib`)
 - A **CLI prediction script** (`predict.py`)
-- A **Streamlit web app** (`streamlit_app.py`)
+- A **Streamlit web app** (`app.py`)
 
 ---
 
