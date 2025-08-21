@@ -7,7 +7,7 @@ st.set_page_config(page_title="Iris Classifier", layout="centered")
 st.title("🌸 Iris Classifier")
 
 # Load model
-model = joblib.load("models/iris_best_model.joblib")
+model = joblib.load("iris_best_model.joblib")
 labels = ["setosa", "versicolor", "virginica"]
 
 # Input sliders
@@ -29,3 +29,4 @@ if st.button("Predict"):
             st.write(f"- {name}: {p:.3f}")
     except Exception:
         st.info("This model does not support probability predictions.")
+
