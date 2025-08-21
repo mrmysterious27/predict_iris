@@ -1,5 +1,5 @@
 🌸 Iris Classifier
-
+app live url: https://predictiris-5ba2rnzxa2golk3gdezxex.streamlit.app/
 A simple **Machine Learning project** that predicts the species of an Iris flower using a trained model.  
 The project includes:
 - A **trained ML model** (`iris_best_model.joblib`)
